@@ -8,6 +8,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
+    "got": "^8.0.3",
     "ramda": "^0.25.0"
   }
 }
