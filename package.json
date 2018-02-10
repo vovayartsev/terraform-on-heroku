@@ -4,11 +4,13 @@
   "main": "src/index.js",
   "author": "Vladimir Yartsev <vovayartsev@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "start": "node src/index.js"
-  },
   "dependencies": {
+    "aws-sdk": "^2.192.0",
     "got": "^8.0.3",
-    "ramda": "^0.25.0"
+    "ramda": "^0.25.0",
+    "terraformjs": "git+https://github.com/strigo/terraformjs.git"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }
